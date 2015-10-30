@@ -1,22 +1,22 @@
 //
-//  ViewController.m
+//  SettingViewController.m
 //  GameLesson
 //
 //  Created by hirokiumatani on 2015/10/30.
 //  Copyright (c) 2015年 hirokiumatani. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SettingViewController.h"
 
-@interface ViewController ()
+@interface SettingViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SettingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

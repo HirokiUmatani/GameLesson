@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SettingViewController.h
 //  GameLesson
 //
 //  Created by hirokiumatani on 2015/10/30.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SettingViewController : UIViewController
 
 @end
-

@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		F4AD2CBB1BE38F660095FA52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2CBA1BE38F660095FA52 /* main.m */; };
 		F4AD2CBE1BE38F660095FA52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2CBD1BE38F660095FA52 /* AppDelegate.m */; };
-		F4AD2CC11BE38F660095FA52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2CC01BE38F660095FA52 /* ViewController.m */; };
 		F4AD2CC41BE38F660095FA52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AD2CC21BE38F660095FA52 /* Main.storyboard */; };
 		F4AD2CC61BE38F660095FA52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AD2CC51BE38F660095FA52 /* Images.xcassets */; };
 		F4AD2CC91BE38F660095FA52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4AD2CC71BE38F660095FA52 /* LaunchScreen.xib */; };
 		F4AD2CD51BE38F660095FA52 /* GameLessonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2CD41BE38F660095FA52 /* GameLessonTests.m */; };
+		F4AD2CDF1BE390510095FA52 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AD2CDE1BE390510095FA52 /* SpriteKit.framework */; };
+		F4AD2CE41BE390B70095FA52 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2CE31BE390B70095FA52 /* MainViewController.m */; };
+		F4AD2CE71BE3915E0095FA52 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2CE61BE3915E0095FA52 /* SettingViewController.m */; };
+		F4AD2CEB1BE399DF0095FA52 /* CommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2CEA1BE399DF0095FA52 /* CommonUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,19 @@
 		F4AD2CBA1BE38F660095FA52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4AD2CBC1BE38F660095FA52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4AD2CBD1BE38F660095FA52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F4AD2CBF1BE38F660095FA52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F4AD2CC01BE38F660095FA52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F4AD2CC31BE38F660095FA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4AD2CC51BE38F660095FA52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F4AD2CC81BE38F660095FA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F4AD2CCE1BE38F660095FA52 /* GameLessonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameLessonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4AD2CD31BE38F660095FA52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4AD2CD41BE38F660095FA52 /* GameLessonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameLessonTests.m; sourceTree = "<group>"; };
+		F4AD2CDE1BE390510095FA52 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		F4AD2CE21BE390B70095FA52 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ViewController/MainViewController.h; sourceTree = "<group>"; };
+		F4AD2CE31BE390B70095FA52 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ViewController/MainViewController.m; sourceTree = "<group>"; };
+		F4AD2CE51BE3915E0095FA52 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingViewController.h; path = ViewController/SettingViewController.h; sourceTree = "<group>"; };
+		F4AD2CE61BE3915E0095FA52 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = ViewController/SettingViewController.m; sourceTree = "<group>"; };
+		F4AD2CE91BE399DF0095FA52 /* CommonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonUtility.h; path = Utility/CommonUtility.h; sourceTree = "<group>"; };
+		F4AD2CEA1BE399DF0095FA52 /* CommonUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonUtility.m; path = Utility/CommonUtility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4AD2CDF1BE390510095FA52 /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 		F4AD2CAC1BE38F660095FA52 = {
 			isa = PBXGroup;
 			children = (
+				F4AD2CDE1BE390510095FA52 /* SpriteKit.framework */,
 				F4AD2CB71BE38F660095FA52 /* GameLesson */,
 				F4AD2CD11BE38F660095FA52 /* GameLessonTests */,
 				F4AD2CB61BE38F660095FA52 /* Products */,
@@ -81,10 +91,11 @@
 		F4AD2CB71BE38F660095FA52 /* GameLesson */ = {
 			isa = PBXGroup;
 			children = (
+				F4AD2CE81BE399B30095FA52 /* Utility */,
+				F4AD2CE11BE390770095FA52 /* Model */,
+				F4AD2CE01BE390630095FA52 /* ViewController */,
 				F4AD2CBC1BE38F660095FA52 /* AppDelegate.h */,
 				F4AD2CBD1BE38F660095FA52 /* AppDelegate.m */,
-				F4AD2CBF1BE38F660095FA52 /* ViewController.h */,
-				F4AD2CC01BE38F660095FA52 /* ViewController.m */,
 				F4AD2CC21BE38F660095FA52 /* Main.storyboard */,
 				F4AD2CC51BE38F660095FA52 /* Images.xcassets */,
 				F4AD2CC71BE38F660095FA52 /* LaunchScreen.xib */,
@@ -117,6 +128,33 @@
 				F4AD2CD31BE38F660095FA52 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4AD2CE01BE390630095FA52 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F4AD2CE21BE390B70095FA52 /* MainViewController.h */,
+				F4AD2CE31BE390B70095FA52 /* MainViewController.m */,
+				F4AD2CE51BE3915E0095FA52 /* SettingViewController.h */,
+				F4AD2CE61BE3915E0095FA52 /* SettingViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		F4AD2CE11BE390770095FA52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F4AD2CE81BE399B30095FA52 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F4AD2CE91BE399DF0095FA52 /* CommonUtility.h */,
+				F4AD2CEA1BE399DF0095FA52 /* CommonUtility.m */,
+			);
+			name = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +257,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4AD2CC11BE38F660095FA52 /* ViewController.m in Sources */,
 				F4AD2CBE1BE38F660095FA52 /* AppDelegate.m in Sources */,
+				F4AD2CEB1BE399DF0095FA52 /* CommonUtility.m in Sources */,
 				F4AD2CBB1BE38F660095FA52 /* main.m in Sources */,
+				F4AD2CE41BE390B70095FA52 /* MainViewController.m in Sources */,
+				F4AD2CE71BE3915E0095FA52 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
