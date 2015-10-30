@@ -7,7 +7,7 @@
 //
 
 #import "MainViewController.h"
-#import "CommonUtility.h"
+
 @interface MainViewController ()
 @property (weak, nonatomic) IBOutlet SKView *skView;
 
@@ -20,14 +20,12 @@
 {
     [super viewDidLoad];
     [self debugMode:YES];
-    SKScene *scene = [SKScene sceneWithSize:_skView.bounds.size];
-    [_skView presentScene:scene];
+    [self setTitleScene];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (BOOL)prefersStatusBarHidden
@@ -35,11 +33,25 @@
     return YES;
 }
 
+- (void)setTitleScene
+{
+    TitleScene *titleScene = [TitleScene sceneWithSize:_skView.bounds.size];
+    titleScene.titleSceneDelegate = self;
+    [_skView presentScene:titleScene];
+}
+
 - (void)debugMode:(BOOL)flag
 {
+    #ifdef DEBUG
     _skView.showsDrawCount = flag;
     _skView.showsNodeCount = flag;
     _skView.showsFPS       = flag;
+    #endif
 }
 
+#pragma mark - TitleSceneDelegate
+- (void)touchStart
+{
+    
+}
 @end

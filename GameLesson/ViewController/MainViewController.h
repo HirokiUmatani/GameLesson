@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <SpriteKit/SpriteKit.h>
-@interface MainViewController : UIViewController
+
+// Scene
+#import "TitleScene.h"
+
+@interface MainViewController : UIViewController <TitleSceneDelegate>
 
 @end

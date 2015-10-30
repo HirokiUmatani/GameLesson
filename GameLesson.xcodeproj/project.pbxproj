@@ -17,6 +17,7 @@
 		F4AD2CE41BE390B70095FA52 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2CE31BE390B70095FA52 /* MainViewController.m */; };
 		F4AD2CE71BE3915E0095FA52 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2CE61BE3915E0095FA52 /* SettingViewController.m */; };
 		F4AD2CEB1BE399DF0095FA52 /* CommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2CEA1BE399DF0095FA52 /* CommonUtility.m */; };
+		F4AD2CEF1BE39E6A0095FA52 /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2CEE1BE39E6A0095FA52 /* TitleScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,9 @@
 		F4AD2CE61BE3915E0095FA52 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = ViewController/SettingViewController.m; sourceTree = "<group>"; };
 		F4AD2CE91BE399DF0095FA52 /* CommonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonUtility.h; path = Utility/CommonUtility.h; sourceTree = "<group>"; };
 		F4AD2CEA1BE399DF0095FA52 /* CommonUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonUtility.m; path = Utility/CommonUtility.m; sourceTree = "<group>"; };
+		F4AD2CED1BE39E6A0095FA52 /* TitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleScene.h; path = Scene/TitleScene.h; sourceTree = "<group>"; };
+		F4AD2CEE1BE39E6A0095FA52 /* TitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TitleScene.m; path = Scene/TitleScene.m; sourceTree = "<group>"; };
+		F4AD2CF01BE39EFE0095FA52 /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Const.h; path = Utility/Const.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 		F4AD2CB71BE38F660095FA52 /* GameLesson */ = {
 			isa = PBXGroup;
 			children = (
+				F4AD2CEC1BE39E2F0095FA52 /* Scene */,
 				F4AD2CE81BE399B30095FA52 /* Utility */,
 				F4AD2CE11BE390770095FA52 /* Model */,
 				F4AD2CE01BE390630095FA52 /* ViewController */,
@@ -153,8 +158,18 @@
 			children = (
 				F4AD2CE91BE399DF0095FA52 /* CommonUtility.h */,
 				F4AD2CEA1BE399DF0095FA52 /* CommonUtility.m */,
+				F4AD2CF01BE39EFE0095FA52 /* Const.h */,
 			);
 			name = Utility;
+			sourceTree = "<group>";
+		};
+		F4AD2CEC1BE39E2F0095FA52 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				F4AD2CED1BE39E6A0095FA52 /* TitleScene.h */,
+				F4AD2CEE1BE39E6A0095FA52 /* TitleScene.m */,
+			);
+			name = Scene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +275,7 @@
 				F4AD2CBE1BE38F660095FA52 /* AppDelegate.m in Sources */,
 				F4AD2CEB1BE399DF0095FA52 /* CommonUtility.m in Sources */,
 				F4AD2CBB1BE38F660095FA52 /* main.m in Sources */,
+				F4AD2CEF1BE39E6A0095FA52 /* TitleScene.m in Sources */,
 				F4AD2CE41BE390B70095FA52 /* MainViewController.m in Sources */,
 				F4AD2CE71BE3915E0095FA52 /* SettingViewController.m in Sources */,
 			);
